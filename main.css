@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: SciFly-Sans;
+}
+.html-content {
+  height: 100vh;
+  overflow: hidden;
+}
+.body-main {
+  background-image: linear-gradient(45deg,#2c2335,#3b2f47);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.body-content {
+  width: 100vw;
+  height: 100vh;
+  margin:0;
+  background: #222;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+@font-face {
+      font-family: SciFly-Sans;
+      src: url('../fonts/SciFly-Sans.ttf');
+}
+.panel {
+  background-color: #6d5e7c;
+  color: #FFFFFF;
+  padding: 8px;
+  border-radius: 10px;
+  box-shadow: inset 0px -4px #56426a,
+              inset 0px 40px #56426a,
+              0 2px 6px rgba(0,0,0,0.60);
+}
+.panel-test {
+  color: #FFFFFF;
+  padding: 0px;
+  border-radius: 0px;
+  border: 10px solid;
+  border-image: url(assets/texturetest.png);
+  border-image-slice: 34% fill;
+  image-rendering: pixelated;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.60);
+}
+.info-panel {
+  background-color: #56426a;
+  border: 2px solid #423450;
+  margin: 0;
+  padding: 4px;
+  border-radius: 3px;
+  box-shadow: 0px 3px #4234507f;
+}
+.info-image {
+  position: relative;
+}
+.bold {
+  letter-spacing: 1px;
+  text-shadow: 1px 0 0,
+               #000000 1px 0 10px,
+               #000 -1px 0,
+               #000 2px 0,
+               #000 0 -1px,
+               #000 1px -1px,
+               #000 0px 1px,
+               #000 1px 1px;
+}
+.bold-title {
+  letter-spacing: 1.5px;
+  text-shadow: 1.5px 0 0,
+               #000000 1px 0 10px,
+               #000 -1.5px 0,
+               #000 3.0px 0,
+               #000 0 -1.5px,
+               #000 1.5px -1.5px,
+               #000 0px 1.5px,
+               #000 1.5px 1.5px;
+  font-size: 150%;
+  height: 120%;
+  margin-left: 2px;
+}
+p {
+  text-shadow: #000 1px 0 10px,
+               #000 1px 0,
+               #000 -1px 0,
+               #000 0 1px,
+               #000 0 -1px;
+}
+pi {
+  text-shadow: #000 1px 0 10px,
+               #000 1px 0,
+               #000 -1px 0,
+               #000 0 1px,
+               #000 0 -1px;;
+}
+uli {
+  text-shadow: #000 1px 0 10px,
+               #000 1px 0,
+               #000 -1px 0,
+               #000 0 1px,
+               #000 0 -1px;;
+}
+.normal {
+  height: 4px;
+  border-width: 0;
+  border-radius: 2px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #423450;
+  background-color: #423450;
+}
+.gray {
+  height: 4px;
+  border-width: 0;
+  border-radius: 2px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #333;
+  background-color: #333;
+}
+a {
+  color: inherit;
+}
+/* .background-warpper {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 15px;
+}
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  transform-style: preserve-3d;
+  z-index: -1;
+  background-size: cover;
+} */
+.image, .image-devamped, .image-arcdustryui {
+  border-radius: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  box-shadow: 0px 3px #4234507f;
+  width: 100%;
+  position: relative;
+  height: 180px;
+}
+.image-devamped {
+  background: linear-gradient(#00000000,#000),url("assets/devamped_background.png") top center;
+  background-size: cover;
+}
+.image-arcdustryui {
+  background: linear-gradient(#00000000,#000),url("assets/arcdustryui_background.jpg") top center;
+  background-size: cover;
+}
+.background {
+  width:100%;
+  min-height: 50vh;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.element {
+  margin: 4px;
+  padding: 4px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.background::before {
+  content:"";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(#00000000,#222),url("assets/devamped_background.png") top center;
+  background-size: cover;
+  transform: translateZ(-1px) scale(3);
+  /* filter: blur(2px); */
+}
+/* .background {
+  transform: translateZ(-20px) scale(4);
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+} */
+.pill {
+  font-size: 20px;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  margin: 2px;
+  background: #9b87af;
+  border-radius: 4px;
+  cursor: pointer;
+  text-shadow: #000 1px 0 10px,
+               #000 1px 0,
+               #000 -1px 0,
+               #000 0 1px,
+               #000 0 -1px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.60);
+  color: #ffffff;
+}
+.pill:hover {
+  background: #c6bad1;
+  color: #000000;
+  text-shadow: #FFF 1px 0 10px,
+               #FFF 1px 0,
+               #FFF -1px 0,
+               #FFF 0 1px,
+               #FFF 0 -1px;
+}
