@@ -1,10 +1,12 @@
-## v1.0
+## **UI & Java Port Update (v0.7a05)**
 ---
-A new beginnings.<br><br>
+This update includes a new UI changes, a proper java edition port and kinda much more...? | `180+ Added/Changed Assets`.
+<br><br>
 > **General:**
-- Collapse-UI is once again, fully rewritten to ensure a proper theme support and optimized UI.
-- Alot of UI will kinda remain the same but improved in a way that it shouldn't be the same as it used to.
-- New Color for the UI (Purple/Magenta)
-- No new features were added in this build.
-- Term of usage has now updated.
-- Tl;dr — alot of changes that uh, too long to mention...
+- Due to the previous Java edition port build somehow is WAAAY more behind than v0.6, **This update will include a recompiled version of v0.7a04 and all features included prior to that version, with Minecraft 1.21 support!**
+- The following changelog are what new stuff included today.
+
+> **GUI / UI:**
+- Added Classic touch controls texture for Bedrock Edition.
+- Improved Java Edition's UI.
+    - All GUI/UI(s) should now be more finished and also has white text. (Only in english lang though...)
