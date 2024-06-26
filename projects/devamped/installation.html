@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: var(--background-color)">
 <head>
-  <title>Ar Page</title>
+  <title>Devamped's Installation</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../../styles/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="../../scripts/ActivePage.js"></script>
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+  <style>
+    :root{
+      --background-color-alpha: #090d0a7a;
+      --background-color: #090d09;
+      --nav-color: #0f1610;
+      --text-color: #f0f0f0;
+      --text-block-color: #1f331e;
+      --accent-color-hover: #58ec7c;
+      --accent-color: #07bf3b;
+      --button-hover-color: #2c4b3a;
+    }
+  </style>
 </head>
 
 <body>
   <nav>
-    <img class="home-link logo" src="../../assets/collapse-ui_logo.png" height="30px" style="padding: 10px 20px"> 
+    <img class="home-link logo" src="../../assets/devamped_logo.png" height="30px" style="padding: 10px 20px"> 
     <input type="checkbox" id="sidebar-active">
     <label for="sidebar-active" class="open-sidebar-button">
       <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -40,69 +53,31 @@
       <p>The only official download link, and also, there'll be no upload delaying. once I've updated it through github, you can immediately download it with the same link!</p><br>
       <p>Before applying. there's <b>Term of service (and usage)</b> below here. please consider read it first!</p>
       <br>
-      <p><b>Current update - v0.7a02</b></p>
-      <a href="changelog.html"><button class="pill" type="button">Changelog</button></a>
+      <blockquote><b>Latest Download(s)</b></blockquote>
+      <a href="https://raw.githubusercontent.com/pixelalphas/devamped/main/Devamped-Latest-BE.mcpack"><button class="pill" type="button" style="width: 100%;">Download Bedrock version (.mcpack)</button></a>
+      <a href="https://raw.githubusercontent.com/pixelalphas/devamped/main/Devamped-Latest-JE.zip"><button class="pill" type="button" style="width: 100%;">Download "Ported" Java version (.zip)</button></a>
       <br>
-      <a href="https://raw.githubusercontent.com/pixelalphas/devamped/main/Devamped-Latest-BE.mcpack"><button class="pill" type="button">Download Bedrock version (.mcpack)</button></a>
-      <a href="https://raw.githubusercontent.com/pixelalphas/devamped/main/Devamped-Latest-JE.zip"><button class="pill" type="button">Download "Ported" Java version (.zip)</button></a>
+      <blockquote><b>Pack Information(s)</b></blockquote>
+      <a href="#term-of-usage"><button class="pill" type="button" style="width: 100%;">Term of usage</button></a>
+      <a href="changelog.html"><button class="pill" type="button" style="width: 100%;">Changelog</button></a>
+      <br>
+      <blockquote><b>Extra(s)</b></blockquote>
+      <a href="#how-to-install"><button class="pill" type="button" style="width: 100%;">How to install</button></a>
+      <a href="#qa"><button class="pill" type="button" style="width: 100%;">Q & A</button></a>
     </div>
     <br>
-    <div class="header-panel">
-      <h2>Term of usage</h2>
-      <hr>
-      <p>Greetings, Thanks for trying this texture pack! By downloading or applying to your game, you'll agree to the term of service and usage of the following "Devamped".</p>
-      <p><b>Last update: Nov 6, 2023</b></p>
-      <br>
-      <p><b>You are permitted/allowed to... —</b></p>
-      <ol>
-        <li>Modify, Changes and create for personal use.</li>
-        <li>Make an showcase or review on social media platforms. (Credits are appreciated, but are not optional nor required)</li>
-        <li>Use the project to a local world or realm with your friends.</li>
-      </ol>
-      <br>
-      <p><b>You are NOT permitted/NOT allowed to... —</b></p>
-      <ol>
-        <li>Create any unofficial external links for this pack.</li>
-        <li>Redistribute this pack to another website without permissions.</li>
-        <li>Use any contents of this pack as commercial purposes or mixing with packs.</li>
-        <li>Claiming that the pack is yours.</li>
-      </ol>
-      <br>
-      <p><b>Ignoring this or doing something you're not allowed to may result me taking the post down or DMCA.</b></p>
+    <div class="header-panel" id="term-of-usage">
+      <zero-md src="term-of-usage.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
     </div>
     <br>
-    <div class="header-panel">
-      <h2>Installation</h2>
-      <hr>
-      <p>To install Devamped, You can grab the download in the download tab, you basically install it like every texture packs. if you didn't know anyhow, here's an instructions.</p>
-      <ol>
-        <li>Download Devamped with <code>.mcpack</code> format, if you've received the <code>.zip</code> version. you can rename it to <code>.mcpack</code></li>
-        <li>Import the <code>.mcpack</code> to Minecraft by clicking/tapping and "Open with". (For android users, You can use <code>Zarchiver</code> from playstore, press the <strong>arrow next to "Open"</strong> )</li>
-        <li>The game will launch and will automatically install Devamped for you.</li>
-        <li>Goto — Game settings &gt; Global Resource &gt; Apply/Activate "Devamped"</li>
-        <li>You are done! — To revert, just deactivate like any texture packs!</li>
-      </ol>
-      <br>
-      <p>For Java, well. you definitely know how to.</p>
+    <div class="header-panel" id="how-to-install">
+      <zero-md src="how-to-install.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
     </div>
     <br>
-    <div class="header-panel">
-      <h2>Q/A</h2>
-      <hr>
-      <p><b>1. Why the development are so long?</b></p>
-      <p>Personal life and yeah, too many work to do. I've tried my best doing things on the project through.</p>
-      <br>
-      <p><b>2. Do you want collab?</b></p>
-      <p>Eh, No.</p>
-      <br>
-      <p><b>3. What's the schedule for update?</b></p>
-      <p>Approximately 7-10 days.</p>
-      <br>
-      <p><b>4. This pack being in development for years! when will it ever finish?</b></p>
-      <p>That's depends. although v0.6 is all about block restart from v0.5, so. Supposedly, i should be finished it by now. that, aged poorly. I've struggling with the limited color palette, (4 per colors) and. well, I can't continue or has reached my limit. so, I've started restarting the whole block sections.</p>
-      <br>
-      <p>That is the past now, so. starting v0.7a01, there'll always be a new block and Devamped are finally back to progressive development!</p>
+    <div class="header-panel" id="qa">
+      <zero-md src="q-a.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
     </div>
+    <br>
   </div>
   <footer>
     <div class="social-media-content">
@@ -115,7 +90,7 @@
         <a href="https://discord.com/invite/ZPAZvtprYa"><img src="../../assets/discord.png" height="32px" style="image-rendering: pixelated;padding: 0 2px"></a>
         <a href="https://github.com/PixelAlphas"><img src="../../assets/github.png" height="32px" style="image-rendering: pixelated;padding: 0 2px"></a>
       </div>
-      <p class="social-media-label">Collapse-UI and this website made by ARXANCE under the GPL-3.0 license.</p>
+      <p class="social-media-label">Devamped and this website made by ARXANCE under the GPL-3.0 license.</p>
       <p class="social-media-label">© Copyright 2024-present ARXANCE, all rights are reserved.</p>
     </div>
   </footer>
