@@ -1,0 +1,5 @@
+## Modifying Tutorial
+---
+- To enable and disable, the string should be something like this `"$cuigv:NoMarketplace": false`, there's 2 existing value and its `false` and `true`. well this should be self-explanatory enough. **but if you didn't know, false are disable and true are enable in short term.**
+- To change the theme color, the string should be something like this `"$cuigv:PrimarilyColor": [ 1, 1, 1 ]`. This is RBG color value but divided to 1. you can change it to any color as you wish, but it must be RBG value. there should be color hex converter somewhere in the internet. other than that, **divide it by 1 ("Value"/255 or "Value" ÷ 255) and you should have a decimal numbers or something like 0.455 or a value between 0.0 to 1.0** — In example, the Hex color is `#9b87af `(Light meganta), you can convert it into RBG value to `155, 135, 175`. then divide it to 1 (155/255, 135/255, 175/255). and you'll get something like this `0.607, 0.529, 0.686`. that's your color value.
+- To change the transparent value, the string should be something like this `$cuigv:BackgroundAlpha": 0.7`. Basically it's just a range between 0.0 to 1.0

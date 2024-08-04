@@ -258,6 +258,16 @@ hr {
                #FFF 0 1px,
                #FFF 0 -1px;
 }
+.legcay_panel {
+  background-color: #6d5e7c;
+  color: #FFFFFF;
+  padding: 8px;
+  margin: 0 4em;
+  border-radius: 10px;
+  box-shadow: inset 0px -4px #56426a,
+              inset 0px 40px #56426a,
+              0 2px 6px rgba(0,0,0,0.60);
+}
 @media(max-width: 600px){
   .links-container{
     flex-direction: column;
@@ -320,7 +330,7 @@ hr {
   .header-body-alt {
     margin: 1em;
   }
-  .header-panel {
+  .header-panel, .legcay_panel {
     max-width: 100%;
     margin: 0;
   }
