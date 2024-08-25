@@ -1,58 +1,69 @@
-## v2.0
+## v2.1
 ---
-Massive update with redesigned style, alot of QOL stuff, advanced theme support and so on!<br><br>
+A Large update with design changes and some QOL changes.<br><br>
 > **General:**
-- New color and alot of design changes!
-- Fixed 20+ bugs, content log errors.
-- Performance improvements and code optimziations.
-- Button is now even rounder and tweaked to have edges.
-- The Theme config plays a big role on this update, as the UI fully supports the theme customization even better!
-- The UI is now fully custom font free, which you are no longer required to restart the game!
-- Back button also changed into MinecraftTen style.
-- Tweaked alot of screens and experimenting things.
-- A lot of toggles and buttons has been changed to support theme.
-- All Collapse-UI's textbox now has increased the text length by 256.
-- Due the creator setting got extra more options in the current minecraft update, v1.21.0 will be minimum requirements.
+- Added Shadows! giving more depths and feelings. and somehow it looks like MacOS entirely.
+- Couple of elements like Hud screen will not have a shadows due probably gonna interfere some gameplay.
+- Back button is now enlarged.
+- Controller tooltips now uses Vanilla textures. + Removed Collapse-UI's controller tooltips for now.
+- Subpacks has been restarted and removed the previous existing ones.
+- Added 7 new config related stuff.
 
-> **Hud Screen (New/Upgraded):**
-- Item text now are smaller, more compact and identical to Java counterpart. with animations!
-- Chat messages are now animated with pretty cool scrolling animations and reduced by 0.4~ second on displaying.
-- Coordinates and "Number of day played" are now moved directly on bottom-right and stacked.
-- All of new stuff above has theme support!
+> **Subpacks:**
+- Due to controller tooltips now using vanilla textures for more dynamic controller bindings, All of subpacks that was about changing the icons has been removed — Will be re-added in the next hotfix.
+- Due to the addition of our new visual update "shadows", I included a new subpacks.
+  - Maximum Preset  — Default, This includes everything that Collapse-UI has to offer. shadows, alot of fancy panels and such.
+  - Medium Preset — This removes several visuals like shadow, less fancy but in return, more reduced loading times.
+  - Minimum Preset — This removes everything that isn't necessarily needed. such as Search bar, Animations, Scrolling backgrounds, Loading screen icon, Faded loading bar, Experience bar text shadows, No gradient backgrounds
 
-> **Add External Server (New):**
-- Added to basically look like settings and dialog in mix.
-- Back button also added.
+> **Hud Screen:**
+- Fixed some couple of issues.
+
+> **Loading Screen:**
+- Theme support has severally improved.
 
 > **Dialogs:**
-- All Dialogs are now updated and has a new design look.
-- This screen is currently primally for themes only.
-- Back buttons are now at top-right like loading screen! ("finally????????" - said someone)
-
-> **Start Screen:**
-- Skin and Achivement button are now moved to Extra menu.
-- Fixed alot of issues.
+- Dialogs now have shadows.
+- Title has now been redone.
 
 > **Pause Screen:**
-- The main buttons now has been updated to match the current main menu, while this was because our new button system in place, the theme kinda freaked out on it. so, I've replaced that instead.
+- The main buttons are now spaced by 1 pixel due to inconsistent button style.
 
-> **Play Screen:**
-- Button spacing is now a thing.
-- Button is also round now.
-- Search bar improvements where the text will now be aligned to the left and search icon will disappear once you type.
-- The Sector buttons or the thing on the top-right now has proper theme support and are updated.
-- Featured Servers now can be toggled!
+> **Settings Screen:**
+- The section buttons/title are now spaced by 1 pixel due to inconsistent button style.
 
-> **Settings Screen**
-- The screen got massive change, this include a new rewritten toggle, better slider bar, new section looks and more!
-- Creator Section now updated to v1.21, this includes the following — Debugger and Watchdog.
-- Toast now has its new design and animated!
-- Removed the section's description for better view.
-- Removed the "Sign in/Sign out" button on general setting as it already exists in Account section
-- Setting screen are now 100% screen dynamic, which the text are no longer cluttered and the toggle can be easily accessible even the smallest screen ratio you can ever get.
-- Massively Optimized with 0.5 second faster than previous. (not even one second smh.)
+> **Content Log:**
+- The content log GUI (things that shows on your screen when there's errors) has been temporary removed due to causing crashes when there's 5~ errors randomly.
+## The previous unmentioned update ( 2.0.2 - 2.0.5 )
+---
+2.0.2
+> **General:**
+- Updated the `lang_template.lang` file
+- Fixed content error issues when pausing the game.
+- Added Localization for Hide/View Featured Server list
+- Game section(s) on the in-game settings are now properly centered
+- Fixed a achievement button icon displaying the wrong icon
+- Tabs got improved because of theme support.
+- Tabs got improved again this time full theme support and should look identical to buttons.
+- Optimizations and code cleaning.
 
-> **About Screen**
-- Added a new color variable.
-- Updated the section to keep up with the new setting theme!
-- The Sector buttons or the thing on the top-right now has proper theme support and are updated.
+> **Hud Screen:**
+- Fixed an issue where item tooltip with enchantment makes the background long even though it wasn't supposed to.
+- Item tooltip has been rewritten to include the fix.
+- Item tooltip background is now a bit larger but the text remains the same (at 0.8 small scale)
+
+> **Pause Screen:**
+- Added Screenshot button and Realm Stories button and will only show up once you play in the realms.
+- Fixed couple of alignment issues
+
+> **Content Log:**
+- Fixed an issue with errors not destroying the element, causing it to overflow.
+
+> **Color Pack (New/Separate Pack):**
+- This is colors set pack to change the UI colors.
+- The colors that aren't there is brown and black, it doesn't makes sense to me.
+- Place it on top of the base pack!
+
+> **Website:**
+- Updated Customizable page.
+- Added Color Pack
