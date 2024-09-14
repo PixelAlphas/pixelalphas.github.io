@@ -13,10 +13,20 @@
   margin: 0;
   padding: 0;
 }
+p, b {
+  font-size: 9.5pt;
+  text-shadow: #000 1px 0 15px,
+               #00000069 2px 2px 4px;
+}
+h3 {
+  font-size: 15pt;
+}
+h4 {
+  text-shadow: #000 1px 0 15px,
+               #00000069 2px 2px 12px;
+}
 html{
-  font-size: 12pt;
   font-family: kazesawa;
-  background: url(../assets/collapse-ui_background.png);
   background-color: var(--background-color-alpha);
   background-blend-mode: multiply;
   background-size: cover;
@@ -91,6 +101,9 @@ code {
     font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
 }
 ul {
+  text-shadow: #000 1px 0 15px,
+               #00000069 2px 2px 4px;
+  font-size: 9.5pt;
   padding: 5px 10px 15px 30px;
   line-height: 1.4;
 }
@@ -125,6 +138,9 @@ blockquote {
   border-left: .25em solid var(--text-block-color);
 }
 ol {
+  text-shadow: #000 1px 0 15px,
+               #00000069 2px 2px 4px;
+  font-size: 9.5pt;
   padding: 12px;
   margin: 15px 15px 0 40px;
   list-style-type: square;
@@ -145,7 +161,7 @@ nav svg{
 }
 @font-face {
   font-family: kazesawa;
-  src: url('../fonts/kazesawa.ttf');
+  src: url('../fonts/NotoSansCJKsc-Regular.otf');
 }
 
 .elements, .bottom-heading {
@@ -158,7 +174,7 @@ nav svg{
   flex-basis: 100%;
   margin: 1.5em 0;
 }
-h3, h2, h1 > * {
+h4, h3, h2, h1 > * {
   font-family: dainbold;
 }
 h1 {
@@ -259,14 +275,14 @@ hr {
                #FFF 0 -1px;
 }
 .legcay_panel {
-  background-color: #6d5e7c;
+  background-color: #765e7c;
   color: #FFFFFF;
-  padding: 8px;
+  padding: 2px 6px 10px 6px;
   margin: 0 4em;
-  border-radius: 10px;
-  box-shadow: inset 0px -4px #56426a,
-              inset 0px 40px #56426a,
-              0 2px 6px rgba(0,0,0,0.60);
+  border-radius: 8px;
+  box-shadow: inset 0px -6px #513a59,
+              inset 0px 27px #60426a,
+              0 2px 20px rgba(0,0,0,0.60);
 }
 @media(max-width: 600px){
   .links-container{
