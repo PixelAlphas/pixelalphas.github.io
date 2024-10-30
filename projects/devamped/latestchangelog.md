@@ -1,28 +1,36 @@
-## **The Forest Update Part 2 (v0.7a09)**
+## **Beyond Update (v0.7a10)**
 ---
-This update includes alot of new textures, should also fix some missing textures on Hud related thing.| `79 New, 4 Changes. [83 Total]`.
+Large update, was also reworked twice due to the whole update being lost about 3 days ago. — an update that changes quite a lot of things! | `69 New, 47 Changes. [116 Total]`.
 <br><br>
 > **What's new? —**
-- Cherry blossom Leaves.
-- Azalea Leaves (No flower variant due to unfinished.)
-- Azalea plants. (No pot variant. i didn't realize it exists though.)
-- Cave vines.
-- Cobweb.
-- Hopper.
-- Pink petals.
-- Berry bushes or sweet berry bush.
-- Target blocks.
-- Hay/Wheat blocks.
-- Tripwirehook and wires.
-- Tree sapling(s).
-- Quartz blocks. (No Ore variant due to unfinished.)
-- Dead bush.
-- Dripstone block and dripstone spike(s)
-- Polished blackstone, bricks and cracked bricks.
-- Redstone lamp.
-- Horse/Jump Hud bar.
-- Bottom left/right touch controls.
+- Hardcore hearts! — Instead of your regular heart, hardcore version will have near solid red outline of the heart
+- New Devamped's Logo and menu background
+- Bamboo blocks, items and boats variants
+- Reinforced Deepslate
+- Chiseled Deepslate
+- Compactor
+- Repeater
+- Quartz Ore
+- Blackstone Gold
+- Azalea pots
+- Brewing Table
 
 > **Changes —**
-- Cauldron updated to match the hopper's texture.
-- Removed Devamped's UI standalone files on github, you can still download the pack it but the source for it will no longer be available. this was basically me being confused which one i should upload and ive basically did the wrong folder.
+- ⚠️ Due to v1.21.40 updated the hud screen, the pack version minimum are now v1.21.30. — Best experience on v1.21.40, **content log errors may occur when playing on v1.21.30 but that's best I could do.**
+- This is not really a new thing, but a restore of certain assets that somehow weren't being added. — Here's what's being added on this update!
+  - Sneak D-pad button (Bedrock)
+  - Bed(s) Redesigns (Bedrock - v0.7a08)
+  - Ton of iron material related items. (v0.7a07)
+  - Bamboo item (v0.7a07)
+  - Grass/Dirt Redesigns (v0.7a08)
+- Azalea's block has been reworked and it's color are re-tuned.
+- Hopper and cauldron (as items) are updated to match it's block counterpart.
+- Anvil are updated to match the dark-iron counterpart like Hopper and cauldron. Though the style are unchanged.
+- Ancient debris nugget are updated to match the block counterpart.
+- All bamboo existing assets are fully redone to match the new bamboo's block counterpart.
+- Deepslate blocks has been darken by the request.
+- Removed the unused assets.
+
+> **Bugfixes —**
+- Fixed couple of incorrect assets naming.
+- Fixed several assets that somehow having a wrong colors.

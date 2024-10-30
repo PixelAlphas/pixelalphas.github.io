@@ -54,6 +54,7 @@ a {
 }
 logo {
   background-color: var(--text-color);
+  image-rendering: pixelated;
 }
 footer {
   background-color: var(--nav-color);
