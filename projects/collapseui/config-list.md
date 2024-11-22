@@ -43,12 +43,12 @@
 - **[1]** `$cuigv:LogoInPauseScreen` - `true` (Boolean)
   - Game logo in pause screen — Enables the game logo in pause screen. Disabling it will change it to "Paused" title.
 - **[2]** `$cuigv:StartMainButtonClassic` - `false` (Boolean)
-  - Classic Start menu — Enables classic version of Collapse-UI's initial layout. **(⚠️ Broken, will be fixed soon.)**
+  - Classic Start menu — Enables classic version of Collapse-UI's initial layout.
 - **[3]** `$cuigv:SearchBoxSystem` - `true` (Boolean)
-  - World Search box — Enables a working search engine on world selection screen. **Case sensitive required due to game's limitations and me not wanting to make a bad performance UI.**
-- **[4]** `$cuigv:OldSliderDesign` - `false` (Boolean)
-  - Old Slider design — Enables prototype version of the settings slider, whicu heavily inspired by Sodium mod. **(⚠️ Broken, will be fixed soon.)**
-- **[5]** `$cuigv:VanillaPaperdoll` - `false` (Boolean)
+  - World Search box — Enables a working search engine on world selection screen. **Case sensitive required due to game's limitations and me not wanting to make a bad performance UI.
+- **[4]** `$cuigv:VanillaPaperdoll` - `false` (Boolean)
   - Vanilla Character Model — Enables your character/skin in the main menu.
-- **[6]** `$cuigv:NoGameLogo` - `false` (Boolean)
+- **[5]** `$cuigv:NoGameLogo` - `false` (Boolean)
   - No Game logo — Replaces the game logo to Collapse-UI logo.
+- **[6]** `$cuigv:NoMarketplaceButton` - `false` (Boolean)
+  - No Marketplace Button — Get rids of marketplace buttons on most screens. Although Extra Menu are unaffected.
