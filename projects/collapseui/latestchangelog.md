@@ -1,15 +1,15 @@
-## v3.0.1
+# v4.0.12 - Released!
 ---
-Some bugfixes :P<br><br>
-> **Changes —**
-- Improved Theme Appearance
-- Removed the "Restart your game for the UI to apply" message because the UI is no longer have a custom fonts.
-
-> **Bug fixes —**
-- Fixed a certain crash that occurs randomly by pause screen
-- Fixed user profile not showing up on pause screen
-- Fixed and reduced content errors to dialog screen thing
-- Fixed a wrong compiled pack of the UI that still mention beta and using the wrong version format
-
-> **Internal —**
-- Curseforge will now use a file that is actually named after version instead of just `CollapseUI-Latest.mcpack`, it will now be `CollapseUI-v3.0.1.mcpack`
+Nearly finishing this off...<br><br>
+### # What's new? —
+- Added Experience bar's theme color.
+- Added Scrolling bar.
+  - Known issues - This uses vanilla version, therefore they'll have the collapse-ui's scrolling bar and may look out of place.
+### # Changes —
+- Loading screen's percentage bar are now adjusts the UI theme.
+- Experience bar is now pixel perfect.
+- Code improvements and optimizations.
+- Improved the legacy button element (aka non-animated button)
+### # Fixes —
+- Fixed an issue with keyboard/controller keybind section having flashy buttons.
+- Fixed an content log error related to default tabs.
