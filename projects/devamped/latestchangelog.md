@@ -1,15 +1,23 @@
-## **v0.7a18.1**
+## **v0.7a19**
 ---
-Annnnnd i got burnout...<br><br>
+Back with the small update and for the first time, This update are made from laptop instead of the phone!<br><br>
 > **What's new? —**
-- Quartz Blocks
-- Carrots
-- Amethyst Block
+- Suger cane (Block)
+- Iron bars
+- Iron trapdoor
+- Potatoes (Farm)
+- Small dripleaf
+- Chains (Block)
+- Furnace minecart (Java Port only, but does exist on Bedrock.) 
 
 > **Changes —**
-- Amethyst stuff are updated.
-- Quartz as item are completely redone.
+- Minecart rails has been improved.
+- All minecarts are fully redone.
+- Chains as item are fully redone.
+- Iron door has been updated to match the iron color palatte.
+- Cauldron has been updated for more modern look.
+- PVP Subpack are now removed due to several reasons, mainly that it's doesn't look too good for pvping. (Bedrock)
+- 1.21.70 is now the minimum version requirement. (Bedrock)
 
 > **Internal/Git —**
-- Patches folder are removed due to time consuming to set things up.
-- I'm currently now looking ways to improve the way i draw stuff, in the meantime. the update will get delayed quite a long time.
+- First time using laptop as main dev related, expect some slow down little bit as i progress about how to use them further.
