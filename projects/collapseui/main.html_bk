@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: var(--background-color)">
+<html lang="en">
 <head>
-  <title>Collapse-UI's Installation</title>
+  <title>Collapse-UI</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="../../styles/style.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="../../scripts/ActivePage.js"></script>
-  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
   <style>
     :root{
       --background-color-alpha: #0b090d7a;
@@ -18,6 +17,15 @@
       --accent-color: #5e07bf;
       --accent-color-hover: #8b58ec;
       --button-hover-color: #352c4b;
+    }
+    html{
+      background: url(../../assets/collapse-ui_background.png);
+      background-color: var(--background-color-alpha);
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
   </style>
 </head>
@@ -43,44 +51,41 @@
       <pi class="close-sidebar-button">Collapse-UI and this website made by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>
   </nav>
-  <div class="header-body-alt">
-    <h1>Installation</h1>
-    <p>A section for installation instructions.</p>
+  <br>
+  <div class="header-body">
+    <h1>Collapse-UI</h1>
+    <p>A Modified Custom Bedrock Edition UI to look more Console-style UI.</p>
+    <a href="installation.html"><button class="pill" type="button">Download/Installation</button></a>
   </div>
   <div class="header-bottom">
-    <div class="header-panel">
-      <h2>Downloads</h2>
-      <hr>
-      <p>The only official download link, and also, there'll be no upload delaying. once I've updated it through github, you can immediately download it with the same link!</p><br>
-      <p>Before applying. there's <b>Term of service (and usage)</b> below here. please consider read it first!</p>
-      <br>
-      <blockquote><b>Latest Download(s)</b></blockquote>
-      <a href="https://raw.githubusercontent.com/pixelalphas/collapse-ui/main/CollapseUI-Latest.mcpack"><button class="pill" type="button" style="width: 100%;">Download Collapse-UI (.mcpack)</button></a>
-      <a href="https://raw.githubusercontent.com/pixelalphas/collapse-ui/main/CollapseUI-Template_Config.zip"><button class="pill" type="button" style="width: 100%;">Download Config Template (.mcpack)</button></a>
-      <a href="https://raw.githubusercontent.com/pixelalphas/collapse-ui/main/CollapseUI-Colors_Pack.mcpack"><button class="pill" type="button" style="width: 100%;">Download Colors Pack (.mcpack)</button></a>
-      <br>
-      <blockquote><b>Pack Information(s)</b></blockquote>
-      <a href="changelog.html"><button class="pill" type="button" style="width: 100%;">Changelog</button></a>
-      <a href="config.html"><button class="pill" type="button" style="width: 100%;">Customizability</button></a>
-      <a href="#term-of-usage"><button class="pill" type="button" style="width: 100%;">Term of usage</button></a>
-      <br>
-      <blockquote><b>Extra(s)</b></blockquote>
-      <a href="#how-to-install"><button class="pill" type="button" style="width: 100%;">How to install</button></a>
-      <a href="#qa"><button class="pill" type="button" style="width: 100%;">Q & A</button></a>
+    <div class="bottom-heading">
+      <h2>Infos</h2>
+      <hr class="gray enableOnMobile">
     </div>
-    <br>
-    <div class="header-panel" id="term-of-usage">
-      <zero-md src="term-of-usage.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
+    <div class="elements">
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <h2>What does it do?</h2>
+          <p>Well, makes UI more optimized and ease of use. aswell supports all platforms (besides Education Edition) and proper support for controller.</p>
+          <br>
+          <p>This UI isn't a <b>client</b>, so this basically acts like your regular texture packs. this also does not modify or give you any advantages whatsoever.</p>
+        </div>
+      </div>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <h2>Compatibility</h2>
+          <p>All in-game UI's are compatible. Although it does <b>not compatible with any UI packs that modifies pre-game UI.</b></p>
+        </div>
+      </div>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <h2>Customizable</h2>
+          <p>Collapse-UI offers some and customizability with the theme and layout.</p>
+          <br>
+          <p>You can change about how would UI look, e.g Red accents, backgrounds, etc. <b>Look for "Configuration" section in Installation page.</b></p>
+        </div>
+      </div>
     </div>
-    <br>
-    <div class="header-panel" id="how-to-install">
-      <zero-md src="how-to-install.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
-    </div>
-    <br>
-    <div class="header-panel" id="qa">
-      <zero-md src="q-a.md"><template><link rel="stylesheet" href="../../styles/style.css"></template></zero-md>
-    </div>
-    <br>
   </div>
   <footer>
     <div class="social-media-content">
