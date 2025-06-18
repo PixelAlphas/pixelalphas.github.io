@@ -1,32 +1,72 @@
 <!DOCTYPE html>
-<!-- <html class="html-content"> -->
-<html>
-  <head>
-    <title>Whoops...</title>
-    <link rel="stylesheet" href="../../main.css">
-    <link rel="stylesheet" href="../../styles/style.css">
-  <script defer src="../../scripts/ActivePage.js"></script>
+<html lang="en">
+<head>
+  <title>Devamped</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../styles/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="../../scripts/ActivePage.js"></script>
   <style>
     :root{
-      --background-color-alpha: #0b090d7a;
-      --background-color: #0c090d;
-      --nav-color: #130f16;
+      --background-color-alpha: #090d0a7a;
+      --background-color: #090d09;
+      --nav-color: #0f1610;
       --text-color: #f0f0f0;
-      --text-block-color: #291e33;
-      --accent-color: #5e07bf;
-      --accent-color-hover: #8b58ec;
-      --button-hover-color: #352c4b;
+      --text-block-color: #1f331e;
+      --accent-color: #07bf3b;
+      --accent-color-hover: #58ec7c;
+      --button-hover-color: #2c4b3a;
+    }
+    html{
+      background: url(../../assets/devamped_background.jpg);
+      background-color: var(--background-color-alpha);
+      background-blend-mode: multiply;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
     }
   </style>
-  </head>
-  <body class="body-main">
+</head>
+
+<body>
+  <nav>
+    <img class="home-link logo" src="../../assets/devamped_logo.png" height="30px" style="padding: 10px 20px; image-rendering: pixelated"> 
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </label>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <SVG xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <img src="../../assets/devamped_logo.png" height="30px" style="padding:12px 0 0 12px; image-rendering: pixelated"> 
+      </label>
+      <label class="home-link"></label>
+      <a href="main.html">Main</a>
+      <a href="installation.html">Installation</a>
+      <a href="changelog.html">Changelog</a>
+      <pi class="close-sidebar-button">Devamped and this website made by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
+    </div>
+  </nav>
+  <br>
+  <div class="header-body">
+    <img src="../../assets/devamped_logo.png" height="40px" style="image-rendering: pixelated;"> 
+    <p>A Vanilla-retro "simplified" Texture pack for Bedrock Edition (Java Edition are also available as a port.)</p>
+    <a href="installation.html"><button class="pill" type="button">Download/Installation</button></a>
+  </div>
   <div class="header-bottom">
-    <br>
-     <div class="legcay_panel">
-      <h3>Whoops...</h3>
-      <div class="info-panel">
-        <h4>This site is currently under maintance. come back later when a certain project on that website is finished!</h4>
+    <div class="bottom-heading">
+      <h2>Infos</h2>
+      <hr class="gray enableOnMobile">
+    </div>
+    <div class="elements">
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <h2>What are these?</h2>
+          <p>Well, a texture pack for bedrock i suppose. with additional java port as usual.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -43,8 +83,8 @@
         <a href="https://github.com/PixelAlphas"><img src="../../assets/github.png" height="32px" style="image-rendering: pixelated;padding: 0 2px"></a>
         <a href="https://www.curseforge.com/members/arxance/projects"><img src="../../assets/curseforge.png" height="32px" style="image-rendering: pixelated;padding: 0 2px"></a>
       </div>
-      <p class="social-media-label">This website made by ARXANCE under the GPL-3.0 license.</p>
+      <p class="social-media-label">Devamped and this website made by ARXANCE under the GPL-3.0 license.</p>
     </div>
   </footer>
-  </body>
+</body>
 </html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Collapse-UI Main Page</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/styles/main.js"></script>
+    <style>
+      :root{
+        --background-color-alpha: #0b090d7a;
+        --background-color: #0c090d;
+        --nav-color: #130f16;
+        --text-color: #f0f0f0;
+        --text-block-color: #291e33;
+        --accent-color: #5e07bf;
+        --accent-color-hover: #8b58ec;
+        --button-hover-color: #352c4b;
+      }
+      .body-main{
+        background: url(../../assets/images/collapseui/collapseui_background.png);
+        background-color: var(--background-color-alpha);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <nav id="collapseuiTabElement"></nav>
+  <br>
+  <div class="header-body padding-element">
+    <img class="home-link logo" src="../../assets/images/collapseui/collapseui_title.png" height="50px" style="padding: 10px 20px"> 
+    <p>A Modified Custom Bedrock Edition UI to look more Console-style UI.</p>
+    <a href="installation.html"><button class="pill" type="button">Download/Installation</button></a>
+  </div>
+  <br>
+  <div class="header-bottom">
+    <div class="padding-element">
+      <h2>Infos</h2>
+      <hr class="gray enableOnMobile">
+    </div>
+    <div class="elements padding-element">
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/collapseui/info-1.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/collapseui/info-2.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/collapseui/info-3.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+    </div>
+    <div class="padding-element">
+      <h2>Screenshots</h2>
+      <hr class="gray enableOnMobile">
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_01.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_02.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_03.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_04.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_05.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_06.png"></img>
+      <img class="screenshot" src="../../assets/images/collapseui/screenshot_07.png"></img>
+    </div>
+  </div>
+  <body class="body-main">
+    <footer>
+      <div class="social-media-content" id="socialMediaFooter"></div>
+    </footer>
+  </body>
+</html>
