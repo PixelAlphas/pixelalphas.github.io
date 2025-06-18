@@ -27,8 +27,8 @@ var collapseuiTabElement = `
       <label class="home-link"></label>
       <a href="main.html">Main</a>
       <a href="installation.html">Installation</a>
+      <a href="qa.html">Q&A</a>
       <a href="changelog.html">Changelog</a>
-      <a href="config.html">Customizability</a>
       <pi class="close-sidebar-button">Collapse-UI and this website made by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>`;
 document.getElementById("socialMediaFooter").innerHTML += socialMediaElement;
