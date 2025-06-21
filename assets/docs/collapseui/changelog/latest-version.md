@@ -1,21 +1,13 @@
-### v4.3.0 - Released!
-Added support to Vibrant Visuals and Updated settings section!<br><br>
+### v4.3.1 (Hotfix) - Released!
+Hotfixes to Hud related.<br><br>
 > **What's new? —**
-- Updated Settings to 1.21.90
-	- Replaced Text opacity to Hud text opacity.
-	- Added Chat opacity slider.
-	- Added all Vibrant Visuals Settings (Deferred Renderer.)
-- Updated Gameplay to 1.21.90
-	- Added Player locator thing...?
+- Properly updated the hud screen for 1.21.90 support.
 
 > **Changes —**
-- Video Section are updated and changed list order.
-- UI version requirement is now 1.21.90+
+- Hud screen's hotbar are now, well. updated to follow 1.21.90. This also means that they will or may have issue when switching gamemodes but so far i haven't seen it so far so, probably not happening.
+- Changed the base's pack icon for v4.3.X
 
 > **Bug fixes —**
-- Fixed an issue with entirety of touch control section having a missing descriptions and somehow having a placeholder.
-- Fixed an issue with hovering a mouse over touch control scheme's button will show up the scheme even though not pressed.
-
-> **Official Site...? —**
-- The site is now out and you can also grab downloads and stuff from there!
-- Added Q&A Section
+- Fixed an issue with locator bar not hiding.
+- Fixed an issue with hotbar and experience bar not hiding when playing on spectator mode.
+- Fixed an issue where hotbar would bugged out casually
