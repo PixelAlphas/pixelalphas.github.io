@@ -12,8 +12,10 @@ var socialMediaElement = `<br>
     <a href="https://www.curseforge.com/members/arxance/projects"><img src="../../assets/icons/curseforge.png" title="Curseforge" height="32px" style="image-rendering: pixelated;padding: 0 2px"></a>
   </div>
   <p class="social-media-label">This website made by ARXANCE under the GPL-3.0 license.</p>`;
+document.getElementById("socialMediaFooter").innerHTML += socialMediaElement;
+
 var collapseuiTabElement = `
-    <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance" style="image-rendering: pixelated;padding: 0 2px"></a>
+    <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance's Portifio" style="image-rendering: pixelated;padding: 0 2px"></a>
     <input type="checkbox" id="sidebar-active">
     <label for="sidebar-active" class="open-sidebar-button">
       <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -29,7 +31,31 @@ var collapseuiTabElement = `
       <a href="installation.html">Installation</a>
       <a href="qa.html">Q&A</a>
       <a href="changelog.html">Changelog</a>
-      <pi class="close-sidebar-button">Collapse-UI and this website made by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
+      <pi class="close-sidebar-button">Collapse-UI and this website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>`;
-document.getElementById("socialMediaFooter").innerHTML += socialMediaElement;
-document.getElementById("collapseuiTabElement").innerHTML += collapseuiTabElement;
+var devampedTabElement = `
+    <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance's Portifio" style="image-rendering: pixelated;padding: 0 2px"></a>
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </label>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <SVG xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <img src="../../assets/images/devamped/devamped_title.png" height="30px" style="padding: 12px 0 0 12px; image-rendering: pixelated"> 
+      </label>
+      <label class="home-link"></label>
+      <a href="main.html">Main</a>
+      <a href="installation.html">Installation</a>
+      <a href="changelog.html">Changelog</a>
+      <pi class="close-sidebar-button">Devamped and this website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
+    </div>`;
+document.addEventListener("DOMContentLoaded", function() {
+  if (document.getElementById("collapseuiTabElement")){
+    document.getElementById("collapseuiTabElement").innerHTML += collapseuiTabElement
+  } else
+  if (document.getElementById("devampedTabElement")){
+    document.getElementById("devampedTabElement").innerHTML += devampedTabElement
+  }
+})

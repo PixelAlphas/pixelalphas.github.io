@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Devamped Main Page</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/styles/main.js"></script>
+    <style>
+      :root{
+        --background-color-alpha: #090d0a7a;
+        --background-color: #090d09;
+        --nav-color: #0f1610;
+        --text-color: #f0f0f0;
+        --text-block-color: #1f331e;
+        --accent-color: #07bf3b;
+        --accent-color-hover: #58ec7c;
+        --button-hover-color: #2c4b3a;
+      }
+      .body-main{
+        background: url(../../assets/images/devamped/devamped_background.png);
+        background-color: var(--background-color-alpha);
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <nav id="devampedTabElement"></nav>
+  </nav>
+  <br>
+  <div class="header-body padding-element">
+    <img class="home-link logo" src="../../assets/images/devamped/devamped_title.png" height="50px" style="padding: 10px 20px; image-rendering: pixelated"> 
+    <p>A Vanilla-retro "simplified" Texture pack for Bedrock Edition + Java Edition as a port.</p>
+    <a href="installation.html"><button class="pill" type="button">Download/Installation</button></a>
+  </div>
+  <br>
+  <div class="header-bottom">
+    <div class="padding-element">
+      <h2>Infos</h2>
+      <hr class="gray enableOnMobile">
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/devamped/info-1.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+      <br>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/devamped/info-2.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+      <br>
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/devamped/info-3.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="padding-element">
+      <h2>Screenshots</h2>
+      <hr class="gray enableOnMobile">
+      <div class="element-panel">
+        <div class="element-panel-body">
+          <zero-md src="/assets/docs/devamped/no-screenshot.md"><template><link rel="stylesheet" href="/styles/main.css"></template></zero-md>
+        </div>
+      </div>
+    </div>
+  </div>
+  <body class="body-main">
+    <footer>
+      <div class="social-media-content" id="socialMediaFooter"></div>
+    </footer>
+  </body>
+</html>
