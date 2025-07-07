@@ -1,4 +1,4 @@
-### Term of usage
+## Term of usage
 **-- /!\ This will be updated and license will also changed in upcoming 0.8a update. --**<br><br>
 Last update: Jun 17, 2024 | 1:47(PM) GMT+7:00
 
