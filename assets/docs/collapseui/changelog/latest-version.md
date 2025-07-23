@@ -1,13 +1,9 @@
-### v4.3.1 (Hotfix) - Released!
-Hotfixes to Hud related.<br><br>
-> **What's new? —**
-- Properly updated the hud screen for 1.21.90 support.
+### v4.3.2 - Released!
+Few updated stuff.<br><br>
 
 > **Changes —**
-- Hud screen's hotbar are now, well. updated to follow 1.21.90. This also means that they will or may have issue when switching gamemodes but so far i haven't seen it so far so, probably not happening.
-- Changed the base's pack icon for v4.3.X
+- Updated the entirety of english lang, as it includes alot of grammar fix, misspelling, etc. but also includes a reformatted ones aswell, so it may look different.
+- About screen changes to Devamped's v0.8a release to coming soon.
 
 > **Bug fixes —**
-- Fixed an issue with locator bar not hiding.
-- Fixed an issue with hotbar and experience bar not hiding when playing on spectator mode.
-- Fixed an issue where hotbar would bugged out casually
+- Fixed some crashes and performance improvements.
