@@ -1,10 +1,12 @@
-### v4.3.2 - Released!
-Few updated stuff.<br><br>
+### v4.3.3 - Released!
+Few updated stuff, fixes and 1.21.100 support.<br><br>
 
 > **Changes —**
-- Updated the entirety of english lang, as it includes alot of grammar fix, misspelling, etc. but also includes a reformatted ones aswell, so it may look different.
-- About screen changes to Devamped's v0.8a release to coming soon.
-- Certain video settings will now have a estimated performance whenever enabling or disabling.
+- Detailed Experience should now be properly themed.
+- Adjusted certain themes.
+- Due to bugs that is exclusive to 1.21.100, the requirement has once again. rised to 1.21.100.
 
 > **Bug fixes —**
+- Fixed an issue with unable to scroll settings.
+- Fixed an issue where certain experiment feature does not work properly.
 - Fixed some crashes and performance improvements.
