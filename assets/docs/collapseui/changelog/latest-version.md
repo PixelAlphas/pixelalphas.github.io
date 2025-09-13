@@ -14,7 +14,6 @@ Celestial Update Early access, certain things still unfinished but stable releas
 
 > **Changes —**
 - All icons are now white instead of gray-ish due to theme related.
-- Classic Menu (Old Collapse-UI Menu) are enabled by default temporaily for your feedbacks!
 - Scrolling backgrounds in the start button (will not be shown in this update due to "Classic Menu") should be corrected in terms of animations.
 
 > **Known issues —**
