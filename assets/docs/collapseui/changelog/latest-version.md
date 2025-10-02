@@ -3,7 +3,6 @@ Celestial Update has arrived! Well, took little too long due to me being busy no
 
 > **What's new? —**
 - Added Permission button in Pause screen, only shows up when there's active scoreboard in the playerlist!
-  - Also reduced the quality of these images for reduced pack size.
 - Optimized Settings screen, reduced by 20% loading time. However, may stutter in some cases.
 - Added new configurations for optimized settings and playerlist tab.
 - New UI designs that follows up modern style.
