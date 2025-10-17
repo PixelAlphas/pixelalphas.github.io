@@ -27,9 +27,9 @@ var portifioTabElement = `
         <img src="../../assets/logo_white.png" height="30px" style="padding: 12px 0 0 12px;image-rendering: pixelatedn"> 
       </label>
       <label class="home-link"></label>
-      <a href="index.html">Main</a>
-      <a href="aboutme.html">About me</a>
-      <a href="qa.html">Q&A</a>
+      <a href="../../index.html">Main</a>
+      <a href="../../projects/aboutme.html">About me</a>
+      <a href="../../projects/qa.html">Q&A</a>
       <pi class="close-sidebar-button">This website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>`;
 var collapseuiTabElement = `n
