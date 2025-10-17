@@ -27,7 +27,7 @@ Celestial Update has arrived! Well, took little too long due to me being busy no
 - Removed "Recommended Texture Limit" setting due to this thing no longer exist.
 - All of UI files will now be .arxui format.
 - Optimized Settings screen, reduced by 20% loading time. However, may stutter in some cases.
-- By default, **Playerlist tab will be disabled due to people request.**
+- By default, **Playerlist tab will be disabled due to people request.** - However, can be re-enabled via configuration!
 - Better optimizations and reduced ton of codes.
 - Buttons just got full rewrite, synced with legacy's button structure. therefore making both legacy (not animated) and current (animated) a same thing. I've also enchanced the button's animations too. but this comes a cost with certain elements being rewrote for this change.
 - Controller changes:

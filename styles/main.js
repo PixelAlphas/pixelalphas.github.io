@@ -1,5 +1,5 @@
 var socialMediaElement = `<br>
-  <p class="social-media-label-normal">My social medias and Creator pages.</pi>
+  <p class="social-media-label-normal">My Socials and Creator pages.</pi>
   <br><br>
   <div class="social-media-icons">
     <a href="https://www.planetminecraft.com/member/arxance/"><img src="../../assets/icons/planetminecraft.png" height="32px" title="PlanetMinecraft" style="image-rendering: pixelated;padding: 0 2px"></a>
@@ -14,7 +14,25 @@ var socialMediaElement = `<br>
   <p class="social-media-label">This website made by ARXANCE under the GPL-3.0 license.</p>`;
 document.getElementById("socialMediaFooter").innerHTML += socialMediaElement;
 
-var collapseuiTabElement = `
+var portifioTabElement = `
+    <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance's Portifio" style="image-rendering: pixelated;padding: 0 2px"></a>
+    <input type="checkbox" id="sidebar-active">
+    <label for="sidebar-active" class="open-sidebar-button">
+      <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </label>
+    <label id="overlay" for="sidebar-active"></label>
+    <div class="links-container">
+      <label for="sidebar-active" class="close-sidebar-button">
+        <SVG xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#000000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <img src="../../assets/logo_white.png" height="30px" style="padding: 12px 0 0 12px;image-rendering: pixelatedn"> 
+      </label>
+      <label class="home-link"></label>
+      <a href="index.html">Main</a>
+      <a href="aboutme.html">About me</a>
+      <a href="qa.html">Q&A</a>
+      <pi class="close-sidebar-button">This website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
+    </div>`;
+var collapseuiTabElement = `n
     <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance's Portifio" style="image-rendering: pixelated;padding: 0 2px"></a>
     <input type="checkbox" id="sidebar-active">
     <label for="sidebar-active" class="open-sidebar-button">
@@ -57,5 +75,8 @@ document.addEventListener("DOMContentLoaded", function() {
   } else
   if (document.getElementById("devampedTabElement")){
     document.getElementById("devampedTabElement").innerHTML += devampedTabElement
+  }
+  if (document.getElementById("portifioTabElement")){
+    document.getElementById("portifioTabElement").innerHTML += portifioTabElement
   }
 })

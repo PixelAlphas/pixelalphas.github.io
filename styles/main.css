@@ -31,6 +31,10 @@
   font-family: devamped-mono;
   src: url('../assets/fonts/DevampedMono.ttf');
 }
+@font-face {
+  font-family: dtm;
+  src: url('../assets/fonts/DTM-Mono.otf');
+}
 :root{
   --background-color-alpha: #09090d61;
   --background-color: #09090d;
@@ -329,6 +333,10 @@ nav a:is(:link, :active, :visited).active {
 }
 .image-collapseui {
   background: linear-gradient(#00000000,#000),url("../assets/images/collapseui/collapseui_main.png") top center;
+  background-size: cover;
+}
+.image-deltacraftbe {
+  background: linear-gradient(#000000,#000) top center;
   background-size: cover;
 }
 #sidebar-active{

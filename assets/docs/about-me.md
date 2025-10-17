@@ -1,3 +1,5 @@
+> **Keep in mind, that this page will get updated in the future as it still missing some infos and stuff that i don't fully remember yet...**
+
 Greetings, I'm Harlow! ( Aka Arxance/Arcdustry or PixelAlphas )
 <br><br>
 My pronounce are usually **They/Them** as i'm Non-binary. Though i don't really mind being mispronounced and often time don't really interact with others.<br>
@@ -6,5 +8,5 @@ Most people usually call me as some library person as i do know alot of stuff an
 <br><br>
 I'm Pixel/Digital artist, model animator, JSON-UI pack dev for a game called **Minecraft: Bedrock**. Also, im usually busy at most things including IRL stuff as i have work too.
 <br><br>
-### "Despite everything happened on the past or today... In the end, it's still you."
-- Harlow
+I play quite alot certain games, but not often nowadays due to... well, job and busy at almost everything.
+<br>
