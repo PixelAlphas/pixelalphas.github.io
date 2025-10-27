@@ -1,4 +1,4 @@
-> **Keep in mind, that this page will get updated in the future as it still missing some infos and stuff that i don't fully remember yet...**
+> **Keep in mind, that this page will get updated in the future as it still missing some infos and stuff that I don't fully remember yet...**
 
 Greetings, I'm Harlow! ( Aka Arxance/PixelAlphas )
 <br><br>
