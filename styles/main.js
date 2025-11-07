@@ -32,7 +32,7 @@ var portifioTabElement = `
       <a href="../../projects/qa.html">Q&A</a>
       <pi class="close-sidebar-button">This website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>`;
-var collapseuiTabElement = `n
+var collapseuiTabElement = `
     <a href="../../index.html"><img src="../../assets/logo_white.png" height="32px" title="Arxance's Portifio" style="image-rendering: pixelated;padding: 0 2px"></a>
     <input type="checkbox" id="sidebar-active">
     <label for="sidebar-active" class="open-sidebar-button">
@@ -49,6 +49,7 @@ var collapseuiTabElement = `n
       <a href="installation.html">Installation</a>
       <a href="qa.html">Q&A</a>
       <a href="changelog.html">Changelog</a>
+      <a href="config.html">Configuration</a>
       <pi class="close-sidebar-button">Collapse-UI and this website created by ARXANCE (@Arcdustry on discord) under the GPL-3.0 license</pi>
     </div>`;
 var devampedTabElement = `

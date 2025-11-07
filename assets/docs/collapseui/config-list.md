@@ -1,0 +1,145 @@
+### Config List
+##### General
+- `$cuigv:ConfigName`: `Default`
+  - Config name — You can change it to anything you want if you wish to customize.
+- `$cuigv:DesignedVersion`: `v1.1.0-celestial`
+  - Designed Version — Config version that supported the UI.
+##### Themes
+- `$cuigv:PrimaryColor`: `[ 0.6941, 0.0196, 0.8901 ]`
+  - **Color/RGB** : UI accent, This includes - Buttons, Icons, Loading bar, and etc.
+- `$cuigv:SecondaryColor`: `[ 0.0784, 0.0000, 0.0980 ]`
+  - **Color/RGB** : Background Color, for inactive buttons etc.
+- `$cuigv:TertiaryColor`: `[ 0.200, 0.004, 0.263 ]`
+  - **Color/RGB** : Brighter Background Color, for mostly background stuff.
+- `$cuigv:FontPrimaryColor`: `[ 1, 1, 1 ]`
+  - **Color/RGB** : Overall text color.
+- `$cuigv:FontSecondaryColor`: `[ 0.7, 0.7, 0.7 ]`
+  - **Color/RGB** : Secondary text color - It's gray text.
+- `$cuigv:BackgroundAlpha`: `0.8`
+  - **Value** : Background Opacity.
+- `$cuigv:ButtonAlpha`: `0.8`
+  - **Value** : Button Opacity.
+- `$cuigv:UIBackground`: `false`
+  - **Boolean** : Display a image background behind the UI - Including Blur Version.
+- `$cuigv:UIBackgroundSlider`: `true`
+  - **Boolean** : Display a sliding images on the Play button from Main Menu.
+- `$cuigv:BackgroundGradientPrimaryColor`: `[ 0, 0, 0, 0.8 ]`
+  - **ColorAdv/RGBA** : Background Gradient primary color.
+- `$cuigv:BackgroundGradientSecondaryColor`: `[ 0, 0, 0, 0 ]`
+  - **ColorAdv/RGBA** : Background Gradient secondary color.
+- `$cuigv:OverworldColor`: `[ 0.4784, 0.8784, 0.5215 ]`
+  - **Color/RGB** : Overworld Color accent for loading screen.
+- `$cuigv:NetherColor`: `[ 0.9568, 0.4784, 0.4784 ]`
+  - **Color/RGB** : Nether Color accent for loading screen.
+- `$cuigv:TheEndColor`: `[ 0.6627, 0.4588, 0.8823 ]`
+  - **Color/RGB** : The End Color accent for loading screen.
+##### Visuals
+- `$cuigv:Shadows`: `true`
+  - **Boolean** : Add a shadows to the elements, buttons, dialog etc.
+- `$cuigv:FadedProgressBar`: `true`
+  - **Boolean** : Add a fading head gradient of the progress bar in loading screen.
+- `$cuigv:ExperienceTextShadows`: `true`
+  - **Boolean** : Replace Bedrock's experience bar level text to Java Edition Style.
+- `$cuigv:BackgroundGradient`: `true`
+  - **Boolean** : Display a Background gradient on all screens.
+- `$cuigv:UIAnimations`: `true`
+  - **Boolean** : Allow the UI to be animated, such as hovering buttons, toggling extra menus, Play button image sliders, and so on.
+- `$cuigv:MoreExperienceDetails`: `true`
+  - **Boolean** : Enable Detailed Experience bar by displaying predicted current to next level and percentage bar.
+- `$cuigv:AnimatedHotbarSelect`: `true`
+  - **Boolean** : Allow Hotbar highlight to be animated as you select your items or hotbar.
+- `$cuigv:AllowColoredExperienceBar`: `true`
+  - **Boolean** : Allow the entire experience bar to be themed via UI Config.
+##### Animations
+- `$cuigv:ButtonAnimDuration`: `0.1`
+  - **Value** : Change how long should hovering or pressing buttons fade in and out.
+- `$cuigv:ChatPileDownDuration`: `1`
+  - **Value** : Change how long should chat animation where it piles down when it displays a new message.
+- `$cuigv:ChatPileUpDuration`: `0.5`
+  - **Value** : Change how long should chat animation where it piles up when the message should no longer exist. (For bottom chat, when there's new message.)
+- `$cuigv:ChatPopDuration`: `0.5`
+  - **Value** : Change how long should chat animation where it slides a new message.
+- `$cuigv:ChatPushDuration`: `0.5`
+  - **Value** : Change how long should chat animation where it hides a new message.
+- `$cuigv:HotbarHighlightDuration`: `0.5`
+  - **Value** : Change how long should hotbar highlight fade in and out, aswell zoom in and out.
+- `$cuigv:HudTooltipsDuration`: `0.35`
+  - **Value** : Change how long should hud tooltips and actionbar should show up and when to hide.
+- `$cuigv:ExtraMenuDuration`: `0.4`
+  - **Value** : Change how long should extra menu fade in and out whenever user interacts it.
+- `$cuigv:PlayerlistMenuDuration`: `0.4`
+  - **Value** : Change how long should playerlist menu fade in and out whenever user interacts it.
+- `$cuigv:BackgroundSliderWaitDuration`: `4`
+  - **Value** : Change how long should background slider waits before sliding a new background.
+- `$cuigv:BackgroundSliderDuration`: `1`
+  - **Value** : Change how long should background sliders after finishing waiting.
+- `$cuigv:HotbarHighlightMainEasingIn`: `out_quart`
+  - **Easing** : Change Hotbar Highlight's Easing In.
+- `$cuigv:HotbarHighlightMainEasingOut`: `in_quart`
+  - **Easing** : Change Hotbar Highlight's Easing Out.
+- `$cuigv:HotbarHighlightOpacityEasingIn`: `out_quart`
+  - **Easing** : Change Hotbar Highlight's Opacity Easing In.
+- `$cuigv:HotbarHighlightOpacityEasingOut`: `out_quart`
+  - **Easing** : Change Hotbar Highlight's Opacity Easing Out.
+- `$cuigv:ButtonAnimOffsetEasingIn`: `in_expo`
+  - **Easing** : Change Animated Button's Offset/Move Easing In.
+- `$cuigv:ButtonAnimOffsetEasingOut`: `out_expo`
+  - **Easing** : Change Animated Button's Offset/Move Easing Out.
+- `$cuigv:HudTooltipsMainEasing`: `out_expo`
+  - **Easing** : Change Hud/Gameplay's Tooltip Easing.
+- `$cuigv:HudTooltipsOpacityEasing`: `out_circ`
+  - **Easing** : Change Hud/Gameplay's Tooltip Opacity Easing.
+- `$cuigv:ChatMainEasingIn`: `out_expo`
+  - **Easing** : Change Hud/Gameplay's Chat Message Easing In.
+- `$cuigv:ChatMainEasingOut`: `in_expo`
+  - **Easing** : Change Hud/Gameplay's Chat Message Easing Out.
+- `$cuigv:ChatPileEasingIn`: `out_expo`
+  - **Easing** : Change Hud/Gameplay's Bottom Chat Message Easing In.
+- `$cuigv:ChatPileEasingOut`: `out_expo`
+  - **Easing** : Change Hud/Gameplay's Bottom Chat Message Easing Out.
+- `$cuigv:ScreenAnimMainEasingIn`: `in_cubic`
+  - **Easing** : Change Screen Animation's Easing In.
+- `$cuigv:ScreenAnimMainEasingOut`: `out_cubic`
+  - **Easing** : Change Screen Animation's Easing Out.
+- `$cuigv:ScreenAnimOpacityEasingIn`: `in_cubic`
+  - **Easing** : Change Screen Animation's Opacity Easing In.
+- `$cuigv:ScreenAnimOpacityEasingOut`: `in_expo`,
+  - **Easing** : Change Screen Animation's Opacity Easing Out.
+- `$cuigv:PlayerlistMenuEasingIn`: `out_cubic`
+  - **Easing** : Change Playerlist Menu's Easing In.
+- `$cuigv:PlayerlistMenuEasingOut`: `in_cubic`
+  - **Easing** : Change Playerlist Menu's Easing Out.
+- `$cuigv:ExtraMenuEasingIn`: `out_cubic`
+  - **Easing** : Change Extra Menu's Easing In.
+- `$cuigv:ExtraMenuEasingOut`: `in_cubic`
+  - **Easing** : Change Extra Menu's Easing Out.
+##### Layouts
+- `$cuigv:LogoInPauseScreen`: `true`
+  - **Boolean** : Enable the game's logo instead displaying "Pause".
+- `$cuigv:StartMainButtonClassic`: `false`
+  - **Boolean** : Enable Classic menu (from Arc-UI) for controller convenience.
+- `$cuigv:SearchBoxSystem`: `true`
+  - **Boolean** : World Search for Play Screen ( Case Sensitive! ).
+- `$cuigv:VanillaPaperdoll`: `false`
+  - **Boolean** : Display your character/skin on the main menu.
+- `$cuigv:NoGameLogo`: `false`
+  - **Boolean** : Replace the game logo/title to Collapse-UI logo instead.
+- `$cuigv:NoRealmsPromoteInWorldSection`: `false`
+  - **Boolean** : Remove Realms promotion and your owned realms on Play Screen/World section.
+- `$cuigv:NoMarketplaceButton`: `false`
+  - **Boolean** : Remove Marketplace button from all screens.
+- `$cuigv:HorizontalSlider`: `false`
+  - **Boolean** : Turn settings slider into PC-alike slider bar. Not console and mobile friendly.
+- `$cuigv:LowMemory`: `false`
+  - **Boolean** : Attempts to use less resources if possible, means that alot of unneeded features will be removed.
+- `$cuigv:OptimizedSettings`: `true`
+  - **Boolean** : Attempts to Optimize settings by not pre-load every sections, means that settings will load 35% faster but may cause some stutter when selecting sections.
+- `$cuigv:PlayerListTab`: `false`
+  - **Boolean** : Enable Playerlist tab like java edition ingame, highly unfinished.
+- `$cuigv:EventButton`: `true`
+  - **Boolean** : Enable Mojang's Event on start screen, along with its notification.
+##### Unused (For failsafe reasons, don't bother. will not have comments on it.)
+- `$cuigv:OriginUI`: `true`
+- `$cuigv:DebugElement`: `false`
+- `$cuigv:CompactMode`: `false`
+- `$cuigv:AdditionalStartButtons`: `true`
