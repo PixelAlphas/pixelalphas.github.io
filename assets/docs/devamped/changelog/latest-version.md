@@ -1,14 +1,17 @@
-### v0.7v20
-The final v0.7a's update, contains several new textures and UI fixes for 1.21.90
+### v0.7v21 (Legacy)
+The final update, A Devamped remake is coming pretty soon! Which, is why this version of devamped being renamed to "Devamped: Legacy". More information in my discord server or PMC annoucement page!
 <br><br>
-> **Whats new? —**
-- Structure block
-- Tinted glass
-- Chorus flower block
-- Scaffolding block
-
 > **Changes —**
-- Added 1.21.90's UI support (Both Base and UI Standalone)
-- All spruce blocks related has changed it's pallate for the feedback.
-  - They're now desaturated and little darker for closer vanilla apperance.
-- Minimum pack support is now 1.21.90 due to UI changes.
+- New UI texture style. This includes -
+  - Devamped Logo and Minecraft logo.
+  - Hotbar.
+  - Buttons, with a disabled button as a new addition.
+  - Toggles. Only regular toggle and crafting toggle are done.
+- Crosshair are now a dot based.
+- Pack icon will now be slightly grayscaled, with black gradient with a text say "Legacy".
+- Several block textures has slightly changed. This includes -
+  - Bookshelf: Book's color is little more vibrant.
+  - Brick: Matches the item version counterpart.
+  - Enchanting Table: Redesigned a red carpet little bit.
+  - More with slightly changes that may be unnoticable.
+- Deleted some files that is not needed.
