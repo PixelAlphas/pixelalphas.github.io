@@ -1,4 +1,4 @@
-### v0.7v21 (Legacy)
+### v0.7v22 (Legacy)
 The final update, A Devamped remake is coming pretty soon! Which, is why this version of devamped being renamed to "Devamped: Legacy". More information in my discord server or PMC annoucement page!
 <br><br>
 > **Changes —**
