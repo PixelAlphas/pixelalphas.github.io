@@ -1,14 +1,15 @@
-### v0.7v24 Hotfix? & Legacy)
-I have repacked the textures wrong so uh, needs to be redone again. but I added additional stuff aswell!
+### v0.7v25 - Legacy
+A full UI texture update for Devamped: Remake!
 <br><br>
 
+> **What's new? —**
+- Added several or new UI textures.
+- Crosshair is now a dot :D
+
 > **Changes —**
-- Few of new UI texture style again lmao.
-  - Hotbar's highlighter.
-  - Console's Cursor.
-    - This is my personal pixel cursor. Will make it public soon! (Once i create more cursor sprites for linux. but, windows version is done!)
-- The font has alot of tweaks and changes!
-  - The website will have an updated font soon.
+- Everything about UI is changed. yeah, that's about it.
+- Changed some fonts, and few other things.
 
 > **Fixes —**
-- Repacked the UI assets properly this time, should no longer have an old texture issue.
+- Fixed some textures being misaligned.
+- Fixed some UI screens that thinks the texture size is the wrong one.
